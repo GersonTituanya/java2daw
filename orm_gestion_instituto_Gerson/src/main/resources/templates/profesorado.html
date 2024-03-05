@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title th:text="${titulo}"></title>
+</head>
+<body>
+<div th:if="${profesores.isEmpty()}">No hay profesores en la lista</div>
+
+<table th:if="${not profesores.isEmpty()}">
+    <thead>
+    <tr>
+        <th>#</th>
+        <th>Nombre</th>
+        <th>Primer Uno</th>
+        <th>Segundo Dos</th>
+        <th>Telefono</th>
+        <th>Direccion</th>
+        <th>Modulos</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="profesor: ${profesores}">
+        <td th:text="${profesor.getId()}"></td>
+        <td th:text="${profesor.getNombre()}"></td>
+        <td th:text="${profesor.getPrimer_apellido()}"></td>
+        <td th:text="${profesor.getSegundo_apellido()}"></td>
+        <td th:text="${profesor.getTelefono()}"></td>
+        <td th:text="${profesor.getDireccion()}"></td>
+        <td th:text="${profesor.getListaModulos()}"></td>
+    </tr>
+    </tbody>
+</table>
+<a href="http://localhost:8080/examen/index">Volver</a>
+</body>
+</html>

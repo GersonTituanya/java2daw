@@ -1,0 +1,49 @@
+[ {
+  "isbn" : "1",
+  "titulo" : "El Principito",
+  "autor" : "Antuane",
+  "año_publicacion" : "1994",
+  "num_paginas" : "400"
+}, {
+  "isbn" : "2",
+  "titulo" : "El Principito2",
+  "autor" : "Antuane",
+  "año_publicacion" : "1995",
+  "num_paginas" : "401"
+}, {
+  "isbn" : "3",
+  "titulo" : "El Principito3",
+  "autor" : "Antuane",
+  "año_publicacion" : "1996",
+  "num_paginas" : "403"
+}, {
+  "isbn" : "4",
+  "titulo" : "El Principito4",
+  "autor" : "Antuane",
+  "año_publicacion" : "1997",
+  "num_paginas" : "404"
+}, {
+  "isbn" : "5",
+  "titulo" : "El Principito5",
+  "autor" : "Antuane",
+  "año_publicacion" : "1998",
+  "num_paginas" : "405"
+}, {
+  "isbn" : "6",
+  "titulo" : "El Principito6",
+  "autor" : "Antuane",
+  "año_publicacion" : "1999",
+  "num_paginas" : "406"
+}, {
+  "isbn" : "7",
+  "titulo" : "El Principito7",
+  "autor" : "Antuane",
+  "año_publicacion" : "1993",
+  "num_paginas" : "407"
+}, {
+  "isbn" : "8",
+  "titulo" : "El Principito8",
+  "autor" : "Antuane",
+  "año_publicacion" : "1991",
+  "num_paginas" : "408"
+} ]

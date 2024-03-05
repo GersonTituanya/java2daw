@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title th:text="${titulo}"></title>
+</head>
+<body>
+
+    <h1 style="text-align: center" th:text="${titulo}"></h1>
+
+    <ul style="align-items: center;text-align: center">
+        <a href="http://localhost:8080/examen/alumnado"><li style="align-items: center;text-align: center" th:text="${alumnos}"></li></a>
+        <a href="http://localhost:8080/examen/profesorado"><li style="align-items: center;text-align: center" th:text="${profesorado}"></li></a>
+        <a href="http://localhost:8080/examen/modulos"><li style="align-items: center;text-align: center" th:text="${modulos}"></li></a>
+    </ul>
+
+</body>
+</html>
